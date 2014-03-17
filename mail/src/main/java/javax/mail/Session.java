@@ -52,7 +52,7 @@ import java.util.Vector;
 import java.util.logging.Level;
 import java.util.concurrent.Executor;
 
-import javax.activation.*;
+import andx.activation.*;
 
 import com.sun.mail.util.LineInputStream;
 import com.sun.mail.util.MailLogger;

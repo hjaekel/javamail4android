@@ -45,7 +45,7 @@ import java.io.*;
 import java.util.Enumeration;
 import javax.mail.*;
 import javax.mail.internet.*;
-import javax.activation.*;
+import andx.activation.*;
 
 import com.sun.mail.util.*;
 import com.sun.mail.iap.*;

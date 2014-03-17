@@ -32,7 +32,7 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.mail.*;
-import javax.activation.*;
+import andx.activation.*;
 import java.util.Date;
 import java.io.IOException;
 import javax.swing.JPanel;

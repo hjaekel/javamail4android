@@ -44,7 +44,7 @@ import java.util.Vector;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.IOException;
-import javax.activation.DataSource;
+import andx.activation.DataSource;
 
 /**
  * MultipartDataSource is a <code>DataSource</code> that contains body

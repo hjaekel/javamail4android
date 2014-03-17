@@ -43,7 +43,7 @@ package com.sun.mail.smtp;
 import java.io.IOException;
 import java.util.Properties;
 
-import javax.activation.DataHandler;
+import andx.activation.DataHandler;
 import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.Message;
@@ -68,7 +68,7 @@ public final class SMTPWriteTimeoutTest {
     @Rule
     public Timeout deadlockTimeout = new Timeout(5000);
 
-    private static final int TIMEOUT = 200;	// write timeout, in millis
+    private static final int TIMEOUT = 5;	// write timeout, in millis
 
     @Test
     public void test() throws Exception {
@@ -78,7 +78,7 @@ public final class SMTPWriteTimeoutTest {
 		public void readMessage() throws IOException {
 		    try {
 			// delay long enough to cause timeout
-			Thread.sleep(5 * TIMEOUT);
+			Thread.sleep(500 * TIMEOUT);
 		    } catch (Exception ex) { }
 		    super.readMessage();
 		}

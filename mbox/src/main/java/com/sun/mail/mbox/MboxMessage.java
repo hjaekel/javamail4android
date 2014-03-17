@@ -43,7 +43,7 @@ package com.sun.mail.mbox;
 import java.io.*;
 import java.util.StringTokenizer;
 import java.util.Date;
-import javax.activation.*;
+import andx.activation.*;
 import javax.mail.*;
 import javax.mail.internet.*;
 import javax.mail.event.MessageChangedEvent;

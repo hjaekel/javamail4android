@@ -89,7 +89,7 @@
 	<!-- like mail.version, but with underscores instead of dots -->
 	<mail.zipversion>1_5_3-SNAPSHOT</mail.zipversion>
 	<mail.spec.version>1.5</mail.spec.version>
-	<activation-api.version>1.1</activation-api.version>
+	<activation-api.version>1.1.1</activation-api.version>
 	<!-- defaults that are overridden in mail module -->
 	<mail.extensionName>
 	    ${project.groupId}.${project.artifactId}
@@ -676,7 +676,7 @@
     <dependencies>
 	<dependency>
 	    <groupId>javax.activation</groupId>
-	    <artifactId>activation</artifactId>
+	    <artifactId>activation4android</artifactId>
 	    <version>${activation-api.version}</version>
 	</dependency>
     </dependencies>

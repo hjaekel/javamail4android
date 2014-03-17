@@ -42,7 +42,7 @@ package javax.mail.internet;
 
 import javax.mail.MessagingException;
 import javax.mail.EncodingAware;
-import javax.activation.*;
+import andx.activation.*;
 import java.util.*;
 import java.io.*;
 import com.sun.mail.util.*;

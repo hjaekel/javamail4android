@@ -34,7 +34,7 @@ import java.io.*;
 import javax.mail.*;
 import javax.mail.internet.*;
 import javax.mail.search.*;
-import javax.activation.*;
+import andx.activation.*;
 
 /*
  * Search the given folder for messages matching the given

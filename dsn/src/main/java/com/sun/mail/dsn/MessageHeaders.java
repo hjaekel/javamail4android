@@ -42,7 +42,7 @@ package com.sun.mail.dsn;
 
 import java.io.*;
 
-import javax.activation.*;
+import andx.activation.*;
 import javax.mail.*;
 import javax.mail.internet.*;
 

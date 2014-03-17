@@ -33,7 +33,7 @@ import java.util.*;
 import java.io.*;
 import javax.mail.*;
 import javax.mail.internet.*;
-import javax.activation.*;
+import andx.activation.*;
 
 /**
  * sendfile will create a multipart message with the second

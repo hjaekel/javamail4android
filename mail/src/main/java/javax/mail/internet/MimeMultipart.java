@@ -41,7 +41,7 @@
 package javax.mail.internet;
 
 import javax.mail.*;
-import javax.activation.*;
+import andx.activation.*;
 import java.util.*;
 import java.io.*;
 import com.sun.mail.util.LineOutputStream;

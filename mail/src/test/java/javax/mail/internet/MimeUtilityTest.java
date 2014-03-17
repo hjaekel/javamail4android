@@ -43,7 +43,7 @@ package javax.mail.internet;
 import java.io.File;
 import java.util.Set;
 import java.util.HashSet;
-import javax.activation.*;
+import andx.activation.*;
 import javax.mail.util.ByteArrayDataSource;
 
 import org.junit.*;

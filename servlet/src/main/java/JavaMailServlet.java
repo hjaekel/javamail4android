@@ -38,7 +38,7 @@ import javax.servlet.http.*;
 import javax.mail.*;
 import javax.mail.Part;
 import javax.mail.internet.*;
-import javax.activation.*;
+import andx.activation.*;
 
 
 /**

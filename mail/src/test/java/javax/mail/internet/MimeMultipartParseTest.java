@@ -44,7 +44,7 @@ import javax.mail.*;
 import javax.mail.event.*;
 import javax.mail.internet.*;
 import javax.mail.util.*;
-import javax.activation.*;
+import andx.activation.*;
 
 import org.junit.*;
 import static org.junit.Assert.assertEquals;

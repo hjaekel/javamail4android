@@ -40,8 +40,8 @@
 
 package com.sun.mail.handlers;
 
-import java.awt.datatransfer.DataFlavor;
-import javax.activation.*;
+import and.awt.datatransfer.DataFlavor;
+import andx.activation.*;
 
 /**
  * DataContentHandler for image/jpeg.

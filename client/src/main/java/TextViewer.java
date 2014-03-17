@@ -32,7 +32,7 @@
 import java.awt.*;
 import java.io.*;
 import java.beans.*;
-import javax.activation.*;
+import andx.activation.*;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JScrollPane;

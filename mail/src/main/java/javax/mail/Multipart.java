@@ -44,7 +44,7 @@ import java.util.Vector;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.IOException;
-import javax.activation.DataSource;
+import andx.activation.DataSource;
 
 /**
  * Multipart is a container that holds multiple body parts. Multipart

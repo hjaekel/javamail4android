@@ -44,7 +44,7 @@ import java.io.*;
 import java.util.*;
 import java.util.logging.Level;
 
-import javax.activation.*;
+import andx.activation.*;
 import javax.mail.*;
 import javax.mail.internet.*;
 

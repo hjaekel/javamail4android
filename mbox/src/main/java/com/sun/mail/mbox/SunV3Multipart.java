@@ -42,7 +42,7 @@ package com.sun.mail.mbox;
 
 import javax.mail.*;
 import javax.mail.internet.*;
-import javax.activation.*;
+import andx.activation.*;
 import java.util.*;
 import java.io.*;
 import com.sun.mail.util.LineInputStream;

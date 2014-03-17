@@ -51,7 +51,7 @@
 	<version>1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.sun.mail</groupId>
+    <groupId>com.sun.mail4android</groupId>
     <artifactId>all</artifactId>
     <packaging>pom</packaging>
     <version>1.5.3-SNAPSHOT</version>
@@ -175,7 +175,6 @@
 	    <modules>
 		<module>mbox</module>
 		<module>demo</module>
-		<module>client</module>
 		<module>servlet</module>
 		<module>webapp</module>
 		<module>taglib</module>
@@ -636,27 +635,27 @@
     <dependencyManagement>
 	<dependencies>
 	    <dependency>
-		<groupId>com.sun.mail</groupId>
+		<groupId>com.sun.mail4android</groupId>
 		<artifactId>javax.mail</artifactId>
 		<version>${mail.version}</version>
 	    </dependency>
 	    <dependency>
-		<groupId>com.sun.mail</groupId>
+		<groupId>com.sun.mail4android</groupId>
 		<artifactId>dsn</artifactId>
 		<version>${mail.version}</version>
 	    </dependency>
 	    <dependency>
-		<groupId>com.sun.mail</groupId>
+		<groupId>com.sun.mail4android</groupId>
 		<artifactId>gimap</artifactId>
 		<version>${mail.version}</version>
 	    </dependency>
 	    <dependency>
-		<groupId>com.sun.mail</groupId>
+		<groupId>com.sun.mail4android</groupId>
 		<artifactId>mbox</artifactId>
 		<version>${mail.version}</version>
 	    </dependency>
 	    <dependency>
-		<groupId>com.sun.mail</groupId>
+		<groupId>com.sun.mail4android</groupId>
 		<artifactId>taglib</artifactId>
 		<version>${mail.version}</version>
 	    </dependency>

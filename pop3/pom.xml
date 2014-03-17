@@ -46,13 +46,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
 			    http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-	<groupId>com.sun.mail</groupId>
+	<groupId>com.sun.mail4android</groupId>
 	<artifactId>parent-distrib</artifactId>
 	<version>1.5.3-SNAPSHOT</version>
 	<relativePath>../parent-distrib/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.sun.mail</groupId>
+    <groupId>com.sun.mail4android</groupId>
     <artifactId>pop3</artifactId>
     <packaging>jar</packaging>
     <name>JavaMail API pop3 provider</name>

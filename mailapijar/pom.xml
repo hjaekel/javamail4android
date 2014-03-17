@@ -53,7 +53,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
 			    http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-	<groupId>com.sun.mail</groupId>
+	<groupId>com.sun.mail4android</groupId>
 	<artifactId>all</artifactId>
 	<version>1.5.3-SNAPSHOT</version>
     </parent>
@@ -98,7 +98,7 @@
 			<configuration>
 			    <artifactItems>
 				<artifactItem>
-				    <groupId>com.sun.mail</groupId>
+				    <groupId>com.sun.mail4android</groupId>
 				    <artifactId>javax.mail</artifactId>
 				    <version>${mail.version}</version>
 				    <classifier>sources</classifier>
@@ -113,7 +113,7 @@
 		<configuration>
 		    <artifactItems>
 			<artifactItem>
-			    <groupId>com.sun.mail</groupId>
+			    <groupId>com.sun.mail4android</groupId>
 			    <artifactId>javax.mail</artifactId>
 			    <version>${mail.version}</version>
 			</artifactItem>

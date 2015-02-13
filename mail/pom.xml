@@ -89,12 +89,22 @@
     </properties>
 
     <build>
-	<resources>
-	    <resource>
-		<directory>src/main/resources</directory>
-		<filtering>true</filtering>
-	    </resource>
-	</resources>
+    <resources>
+		<resource>
+		    <directory>src/main/resources</directory>
+				<excludes>
+				    <exclude>**/*.java</exclude>
+				</excludes>
+		</resource>
+		<resource>
+		    <directory>src/main/resources</directory>
+		    <includes>
+				<include>**/*.java</include>
+		    </includes>
+		    <filtering>true</filtering>
+		    <targetPath>${basedir}/target/generated-sources</targetPath>
+		</resource>
+    </resources>
 	<plugins>
 	    <!--
 		Configure test plugin to find *TestSuite classes.

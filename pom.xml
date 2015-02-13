@@ -505,7 +505,7 @@
 				    ${project.build.directory}/sources
 				</source>
 				<source> <!-- for Version.java -->
-				    target/classes
+				    target/generated-sources
 				</source>
 			    </sources>
 			</configuration>
